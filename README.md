@@ -7,10 +7,10 @@ The goal is to extract insights such as total revenue, popular pizza types, orde
 
 
 # Dataset
- orders.cvs
- order_details.csv
- pizzas.csv
- pizza_types.csv
+ orders.cvs,
+ order_details.csv,
+ pizzas.csv,
+ pizza_types.csv.
  download it from kaggle 
 
 # Key SQL Analysis Performed
