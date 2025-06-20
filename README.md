@@ -1,39 +1,80 @@
-# 🍕 Pizza Sales MYSQL Analysis Project
+# 🍕 Pizza Sales Analysis Dashboard (MySQL + Power BI)
+
+This project analyzes the sales performance of a fictional pizza restaurant chain using **MySQL for data cleaning** and **Power BI for dashboard visualization**.
+It uncovers trends in revenue, orders, customer preferences, and product performance.
+
+## 📌 Project Overview
+
+**Objective:**  
+To help business stakeholders (restaurant managers, marketing teams) understand:
+
+- Which pizza types and categories drive the most revenue?
+- How do sales vary by day, week, and month?
+- What are the busiest hours for orders?
+- Which products underperform or exceed expectations?
+- What’s the impact of size and category on sales?
+
+##  Tools & Techniques
+
+- **MySQL** – For data extraction and transformation  
+- **Power BI** – For data modeling, visualization, and dashboard design  
+- **DAX Measures** – Used for dynamic KPIs and variance calculations  
+- **Conditional Formatting** – Dynamic bar coloring for performance analysis  
+- **Calendar Filtering** – Used for date-wise trend exploration  
+- **Unpivoting** – To reshape wide data into a tidy format (if applicable)
+
+## Dashboard Features
+
+### 🔹 Page 1 – Overall Sales Overview
+- Key metrics: Total Orders, Revenue, Units Sold, Avg. Orders per Day
+- Monthly trend line of orders, revenue, and units
+- Revenue breakdown by:
+  - Pizza **size**
+  - Pizza **category**
+  - **Top 5 pizzas** by revenue
+  - **Day of week & hour heatmap** (for staffing insights)
+
+### 🔹 Page 2 – Product-Level Performance
+- Table with:
+  - ProductName
+  - Total Orders
+  - Revenue
+  - Units
+  - Revenue Variance vs Target  with conditional formating 
+- Donut chart showing product mix by category
+- Revenue vs Avg revenue trend by **day**
 
 
-# Project Overview
-This project analyzes pizza sales data using MYSQL. 
-The goal is to extract insights such as total revenue, popular pizza types, ordering patterns, and revenue trends over time.
+## 📌 Key Insights
+
+- Most revenue comes from **Large and Medium pizzas**.
+- **Chicken** and **Supreme** categories have the highest variety.
+- Top performers:  
+  - The Barbecue Chicken Pizza  
+  - The California Chicken Pizza  
+- Sales spike during **weekends** and **evening hours**.
+- Variance analysis identifies pizzas that underperform (great for promotions).
 
 
-# Dataset
- orders.cvs,
- order_details.csv,
- pizzas.csv,
- pizza_types.csv.
- download it from kaggle 
 
-# Key SQL Analysis Performed
-. Data cleaning and Type Conversion
-. Total revenue, Total Qty,Total orders 
-. Most popular and highest revenue-generating pizzas
-. Order trends by size, category, and time
-. Monthly revenue and cumulative trends
+##  Dashboard Preview
 
-# Files Included
- pizzaSales.docx file (All mysql queries with Screen shots of result )
- Files/raw files
+pizza Dashbord -Summery (pizza_sale1.png)
+pizza details- details(pizza_sales2.png)
 
- # Tools Use
-   mysql 
-   Microsof document 
 
-# How to Run
+## 📚 Dataset Source
 
- Import the CSV files into your MySQL DB.
- Run the queries 
- Check results or replicate insights.
+This dataset is inspired by the **Pizza Sales project** from the data community and modified for educational purposes.
 
-sonali Rajgure.
 
-  
+
+## 👩‍💻 Author
+
+**Sonali Rajgure**  
+Self-driven data enthusiast, focused on learning through real-world projects.  
+🔗 [LinkedIn](https://www.linkedin.com/sonalirajgure)
+
+
+
+
