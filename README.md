@@ -21,12 +21,11 @@ To help business stakeholders (restaurant managers, marketing teams) understand:
 - **DAX Measures** – Used for dynamic KPIs and variance calculations  
 - **Conditional Formatting** – Dynamic bar coloring for performance analysis  
 - **Calendar Filtering** – Used for date-wise trend exploration  
-- **Unpivoting** – To reshape wide data into a tidy format (if applicable)
 
 ## Dashboard Features
 
 ### 🔹 Page 1 – Overall Sales Overview
-- Key metrics: Total Orders, Revenue, Units Sold, Avg. Orders per Day
+- Key metrics: Total Orders, Revenue, Units Sold, Avg. Orders per Day,MOM growth for orders,MOM growth for Revenue,MOM growth for Units
 - Monthly trend line of orders, revenue, and units
 - Revenue breakdown by:
   - Pizza **size**
